@@ -32,7 +32,7 @@ export const PRODUCTS = {
   },
   'p2s': {
     name: 'Bambu Lab P2S Combo',
-    advertisedPixPrice: 11990.00, // ⚠️ AJUSTAR pro preço real da LP P2S
+    advertisedPixPrice: 9970.00, // ⚠️ AJUSTAR pro preço real da LP P2S
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'P2S',
@@ -41,7 +41,7 @@ export const PRODUCTS = {
   },
   'snapmaker-u1': {
     name: 'Snapmaker U1',
-    advertisedPixPrice: 8990.00, // ⚠️ AJUSTAR pro preço real da LP Snapmaker
+    advertisedPixPrice: 12970.00, // ⚠️ AJUSTAR pro preço real da LP Snapmaker
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'SMK',
@@ -50,7 +50,7 @@ export const PRODUCTS = {
   },
   'creator5': {
     name: 'Flashforge Creator 5',
-    advertisedPixPrice: 9990.00, // ⚠️ AJUSTAR pro preço real da LP Creator 5
+    advertisedPixPrice: 10970.00, // ⚠️ AJUSTAR pro preço real da LP Creator 5
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'C5',
