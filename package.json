@@ -1,0 +1,10 @@
+{
+  "name": "gbs-payments-api",
+  "version": "1.0.0",
+  "description": "API central de pagamentos GlobalBrasilShop — ParceladoPay integration + Option 2 fee absorption",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
