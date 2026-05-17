@@ -21,6 +21,7 @@
 // =================================================================
 
 export const PRODUCTS = {
+  // ----- Bambu Lab -----
   'p1s': {
     name: 'Bambu Lab P1S Combo',
     advertisedPixPrice: 7970.00,
@@ -32,25 +33,56 @@ export const PRODUCTS = {
   },
   'p2s': {
     name: 'Bambu Lab P2S Combo',
-    advertisedPixPrice: 9970.00, // ⚠️ AJUSTAR pro preço real da LP P2S
+    advertisedPixPrice: 9970.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'P2S',
     subdomain: 'p2s.globalbrasilshop.com',
     description: 'Bambu Lab P2S Combo — Importação direta GlobalBrasilShop'
   },
+  'h2c': {
+    name: 'Bambu Lab H2C',
+    advertisedPixPrice: 26500.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'H2C',
+    subdomain: 'h2c.globalbrasilshop.com',
+    description: 'Bambu Lab H2C — Importação direta GlobalBrasilShop'
+  },
+  'h2d': {
+    name: 'Bambu Lab H2D',
+    advertisedPixPrice: 23400.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'H2D',
+    subdomain: 'h2d.globalbrasilshop.com',
+    description: 'Bambu Lab H2D — Importação direta GlobalBrasilShop'
+  },
+
+  // ----- Snapmaker -----
   'snapmaker-u1': {
     name: 'Snapmaker U1',
-    advertisedPixPrice: 12970.00, // ⚠️ AJUSTAR pro preço real da LP Snapmaker
+    advertisedPixPrice: 12970.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'SMK',
     subdomain: 'snapmaker.globalbrasilshop.com',
     description: 'Snapmaker U1 — Importação direta GlobalBrasilShop'
   },
+  'snapmaker-artisan': {
+    name: 'Snapmaker Artisan 3-em-1',
+    advertisedPixPrice: 28300.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'ARTISAN',
+    subdomain: 'artisan.globalbrasilshop.com',
+    description: 'Snapmaker Artisan 3-em-1 (3D + Laser + CNC) — Importação direta GlobalBrasilShop'
+  },
+
+  // ----- Flashforge -----
   'creator5': {
     name: 'Flashforge Creator 5',
-    advertisedPixPrice: 10970.00, // ⚠️ AJUSTAR pro preço real da LP Creator 5
+    advertisedPixPrice: 10970.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'C5',
@@ -70,11 +102,18 @@ export const PRODUCTS = {
 
 // Origins permitidos pro CORS — TODAS as LPs + vitrine
 export const ALLOWED_ORIGINS = [
+  // Bambu
   'https://p1s.globalbrasilshop.com',
   'https://p2s.globalbrasilshop.com',
+  'https://h2c.globalbrasilshop.com',
+  'https://h2d.globalbrasilshop.com',
+  // Snapmaker
   'https://snapmaker.globalbrasilshop.com',
+  'https://artisan.globalbrasilshop.com',
+  // Flashforge
   'https://creator5.globalbrasilshop.com',
   'https://creator5pro.globalbrasilshop.com',
+  // Vitrine + raiz
   'https://3d.globalbrasilshop.com',
   'https://globalbrasilshop.com',
   'https://www.globalbrasilshop.com'
