@@ -58,6 +58,15 @@ export const PRODUCTS = {
     subdomain: 'h2d.globalbrasilshop.com',
     description: 'Bambu Lab H2D — Importação direta GlobalBrasilShop'
   },
+  'x2d': {
+    name: 'Bambu Lab X2D Combo',
+    advertisedPixPrice: 12000.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'X2D',
+    subdomain: 'x2d.globalbrasilshop.com',
+    description: 'Bambu Lab X2D Combo — Importação direta GlobalBrasilShop'
+  },
 
   // ----- Snapmaker -----
   'snapmaker-u1': {
@@ -107,6 +116,7 @@ export const ALLOWED_ORIGINS = [
   'https://p2s.globalbrasilshop.com',
   'https://h2c.globalbrasilshop.com',
   'https://h2d.globalbrasilshop.com',
+  'https://x2d.globalbrasilshop.com',
   // Snapmaker
   'https://snapmaker.globalbrasilshop.com',
   'https://artisan.globalbrasilshop.com',
