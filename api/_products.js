@@ -78,6 +78,15 @@ export const PRODUCTS = {
     subdomain: 'snapmaker.globalbrasilshop.com',
     description: 'Snapmaker U1 — Importação direta GlobalBrasilShop'
   },
+  'snapmaker-u1-reservation': {
+    name: 'Reserva Snapmaker U1',
+    advertisedPixPrice: 1000.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'SMK-RES',
+    subdomain: 'snapmaker.globalbrasilshop.com',
+    description: 'Reserva Snapmaker U1 — Trava preço de R$ 12.970. Saldo de R$ 11.970 a pagar na retirada em SP. Não reembolsável.'
+  },
   'snapmaker-artisan': {
     name: 'Snapmaker Artisan 3-em-1',
     advertisedPixPrice: 28300.00,
