@@ -80,12 +80,12 @@ export const PRODUCTS = {
   },
   'snapmaker-u1-reservation': {
     name: 'Reserva Snapmaker U1',
-    advertisedPixPrice: 1000.00,
+    advertisedPixPrice: 750.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'SMK-RES',
     subdomain: 'snapmaker.globalbrasilshop.com',
-    description: 'Reserva Snapmaker U1 — Trava preço de R$ 12.970. Saldo de R$ 11.970 a pagar na retirada em SP. Não reembolsável.'
+    description: 'Reserva Snapmaker U1 — Sinal R$ 750 (premium pela reserva, não reembolsável). Saldo de R$ 12.970 na retirada em SP.'
   },
   'snapmaker-artisan': {
     name: 'Snapmaker Artisan 3-em-1',
