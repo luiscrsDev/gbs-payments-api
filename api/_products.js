@@ -42,12 +42,21 @@ export const PRODUCTS = {
   },
   'h2c': {
     name: 'Bambu Lab H2C',
-    advertisedPixPrice: 26500.00,
+    advertisedPixPrice: 27850.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'H2C',
     subdomain: 'h2c.globalbrasilshop.com',
     description: 'Bambu Lab H2C — Importação direta GlobalBrasilShop'
+  },
+  'h2c-reservation': {
+    name: 'Reserva Bambu Lab H2C',
+    advertisedPixPrice: 2850.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'H2C-RES',
+    subdomain: 'h2c.globalbrasilshop.com',
+    description: 'Reserva Bambu Lab H2C — Sinal R$ 2.850 (não reembolsável). Saldo de R$ 25.000 ou 10× R$ 3.050 na entrega em SP-Capital (20-30 dias).'
   },
   'h2d': {
     name: 'Bambu Lab H2D',
@@ -60,12 +69,21 @@ export const PRODUCTS = {
   },
   'x2d': {
     name: 'Bambu Lab X2D Combo',
-    advertisedPixPrice: 12000.00,
+    advertisedPixPrice: 12970.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'X2D',
     subdomain: 'x2d.globalbrasilshop.com',
     description: 'Bambu Lab X2D Combo — Importação direta GlobalBrasilShop'
+  },
+  'x2d-reservation': {
+    name: 'Reserva Bambu Lab X2D Combo',
+    advertisedPixPrice: 750.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'X2D-RES',
+    subdomain: 'x2d.globalbrasilshop.com',
+    description: 'Reserva Bambu Lab X2D Combo — Sinal R$ 750 (premium pela reserva, não reembolsável). Saldo de R$ 12.970 ou 10× R$ 1.582,82 na entrega em SP-Capital (20-30 dias).'
   },
 
   // ----- Snapmaker -----
@@ -85,7 +103,7 @@ export const PRODUCTS = {
     currency: 'BRL',
     invoicePrefix: 'SMK-RES',
     subdomain: 'snapmaker.globalbrasilshop.com',
-    description: 'Reserva Snapmaker U1 — Sinal R$ 750 (premium pela reserva, não reembolsável). Saldo de R$ 12.970 na retirada em SP.'
+    description: 'Reserva Snapmaker U1 — Sinal R$ 750 (premium pela reserva, não reembolsável). Saldo de R$ 12.970 ou 10× R$ 1.582,82 na entrega em SP-Capital (20-30 dias).'
   },
   'snapmaker-artisan': {
     name: 'Snapmaker Artisan 3-em-1',
@@ -109,12 +127,21 @@ export const PRODUCTS = {
   },
   'creator5-pro': {
     name: 'Flashforge Creator 5 Pro',
-    advertisedPixPrice: 12250.00,
+    advertisedPixPrice: 12970.00,
     pixFeeRate: 0.034,
     currency: 'BRL',
     invoicePrefix: 'C5P',
     subdomain: 'creator5pro.globalbrasilshop.com',
     description: 'Flashforge Creator 5 Pro — Importação direta GlobalBrasilShop'
+  },
+  'creator5-pro-reservation': {
+    name: 'Reserva Flashforge Creator 5 Pro',
+    advertisedPixPrice: 750.00,
+    pixFeeRate: 0.034,
+    currency: 'BRL',
+    invoicePrefix: 'C5P-RES',
+    subdomain: 'creator5pro.globalbrasilshop.com',
+    description: 'Reserva Flashforge Creator 5 Pro — Sinal R$ 750 (premium pela reserva, não reembolsável). Saldo de R$ 12.970 ou 10× R$ 1.582,82 na entrega em SP-Capital (20-30 dias).'
   }
 };
 
